@@ -1,8 +1,6 @@
 # Library Management System
 
-A modern, full-stack library management system with separated frontend and backend architecture.
-https://github.com/Aman-Code31/LibroHub.git 
-This Repository is for Deployment of this Project in Vercel.
+A modern, comprehensive library management system built with Node.js, Express, and SQLite. Features a beautiful web interface for both administrators and users, complete with book cataloging, user management, activity tracking, and real-time notifications.
 
 ## 🏗️ Architecture
 
@@ -33,6 +31,27 @@ library-system/
 ├── package.json        # Root package.json with convenience scripts
 └── README.md           # This file
 ```
+
+### 🏢 Admin Dashboard
+- **Book Management**: Add, edit, delete, and search books with advanced filtering
+- **User Management**: Manage user accounts, roles, and permissions
+- **Activity Monitoring**: Track all system activities with real-time updates
+- **Reports & Analytics**: Generate comprehensive reports on library usage
+- **Settings Management**: Configure system-wide settings and policies
+- **Bulk Operations**: Import/export books in multiple formats (JSON, CSV)
+- **Notification System**: Real-time notifications for all activities
+
+### 👤 User Dashboard
+- **Book Browsing**: Search and browse the complete library catalog
+- **Personal Profile**: Manage account settings and preferences
+- **Reading History**: Track borrowed books and reading progress
+- **Ratings & Reviews**: Rate and review books in the collection
+
+### 🌐 Public Website (Hero Section)
+- **Modern Landing Page**: Attractive homepage with feature highlights
+- **Contact & Support**: Integrated contact forms and rating system
+- **Authentication**: Secure login/registration with role-based access
+- **Responsive Design**: Mobile-friendly interface across all devices
 
 ## Website : https://librohub-eta.vercel.app/
 
@@ -118,31 +137,6 @@ const API_CONFIG = {
   // ...
 };
 ```
-
-## 🔧 Available Scripts
-
-### Root Level Scripts
-
-- `npm run install:all` - Install dependencies for both frontend and backend
-- `npm run install:backend` - Install backend dependencies only
-- `npm run install:frontend` - Install frontend dependencies only
-- `npm start` - Start both servers in production mode
-- `npm run dev` - Start both servers in development mode
-- `npm run start:backend` - Start backend server only
-- `npm run start:frontend` - Start frontend server only
-- `npm run dev:backend` - Start backend in development mode with nodemon
-- `npm run dev:frontend` - Start frontend in development mode
-
-### Backend Scripts (from backend/ directory)
-
-- `npm start` - Start the Express server
-- `npm run dev` - Start with nodemon for auto-reload
-- `npm test` - Run backend tests
-
-### Frontend Scripts (from frontend/ directory)
-
-- `npm start` - Start the HTTP server
-- `npm run dev` - Start the HTTP server and open in browser
 
 ## 🛠️ Technology Stack
 
